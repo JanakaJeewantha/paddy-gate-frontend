@@ -1,6 +1,11 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
+  background-image: url('./Components/Assets/bg1.jpg');
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
 }
 
 .navbar {
