@@ -1,0 +1,134 @@
+/* SignInRegister.css */
+
+.signin-register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('./background_home.jpg'); /* Use logo as background */
+    background-size: cover; /* Or contain, depending on desired effect */
+    background-position: center;
+  }
+  nav a {
+    /* ... other styles ... */
+    font-size: 1.2em; /* Increase font size */
+    opacity: 0.7; /* Adjust transparency (0.0 - 1.0) */
+    transition: opacity 0.3s ease; /* Add smooth transition for opacity */
+  }
+  
+  nav a:hover {
+
+    opacity: 1.0; /* Make it fully opaque on hover */
+  }
+  .signin-register-logo{
+    width: 150px;
+    height: 150px;
+    margin: 0;
+    padding: 0;
+  }
+  .form-container {
+  background-color: rgba(0, 0, 0, 0.35);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2), inset 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    
+  }
+  
+  
+  h2 {
+    display: flex; /* Hide the "Sign In" heading */
+    font-family:'Times New Roman', Times, serif; /* Replace with your font */
+    font-weight: bold;
+    font-size: 24px; /* Adjust font size as needed */
+    transition: background-color 0.3s ease; /* Add hover effect */
+  }
+  
+  label { /* Style for labels */
+    display: block; /* Make labels stack on top of inputs */
+    margin-bottom: 5px;
+    color: #555; /* Slightly darker label color */
+  }
+  
+  input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type="text"],
+  input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 20px; /* Increased border-radius for rounded corners */
+  box-sizing: border-box;
+}
+button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #ac921f; /* Blue button */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'YourChosenFont', sans-serif; /* Replace with your font */
+    font-size: 16px; /* Adjust font size as needed */
+    transition: background-color 0.3s ease; /* Add hover effect */
+  }
+  button:hover {
+    background-color: #595a0d; /* Darker blue on hover */
+  }
+  
+  
+  .forgot-password { /* Style for the "Forgot Password" link */
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .forgot-password a,
+.signup-link a {
+  color: #007bff;
+  text-decoration: none;
+  font-family: 'YourChosenFont', sans-serif; /* Replace with your font */
+}
+  
+  .signup-link a {
+    background-color: transparent;
+    color: #007bff;
+    text-decoration: underline;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    font-family: 'YourChosenFont', sans-serif; /* Replace with your font */
+  }
+  .signup-link button { /* Target the register button specifically */
+    background-color: transparent;
+    color: #007bff;
+    text-decoration: underline;
+    border: none;
+    padding: 0;
+    margin-top: 20px; /* Add some top margin */
+  }
+  
+  .signup-link button:hover {
+    background-color: transparent; /* Remove background on hover */
+    color: #004085; /* Slightly darker blue on hover */
+    text-decoration: underline; /* Keep underline on hover */
+  
+  }
+  .signin-register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('./background_home.jpg'); /* Or your background image */
+    background-size: cover;
+    background-position: center;
+  }
