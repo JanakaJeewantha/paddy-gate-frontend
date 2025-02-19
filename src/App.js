@@ -4,6 +4,7 @@ import Navbar from "./Components/Navbar";
 import Home from "./Components/Pages/Home";
 import Farmer from "./Components/Pages/Farmer";
 import SignIn from "./Components/Pages/SignInRegister";
+import MillerPage from "./Components/Pages/miller"; 
 
 const App = () => {
   return (
@@ -13,7 +14,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/farmer" element={<Farmer />} />
         <Route path="/signin" element={<SignIn />} />
-        {/* Add other routes for Miller and About Us here */}
+        <Route path="/miller" element={<MillerPage />} /> 
       </Routes>
     </Router>
   );
